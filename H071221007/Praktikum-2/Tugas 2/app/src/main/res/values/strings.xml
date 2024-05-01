@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tugas2</string>
+    <string name="nama">Nama</string>
+    <string name="username">Username</string>
+    <string name="submit">Submit</string>
+    <string name="judul">Tugas Praktikum Intent</string>
+</resources>
