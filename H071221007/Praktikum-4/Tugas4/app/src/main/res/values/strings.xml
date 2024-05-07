@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Pertemuan 4</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="masukkan_konten">Masukkan Konten...</string>
+    <string name="gambar">Gambar</string>
+    <string name="add_post">Add Post</string>
+    <string name="konten">Konten</string>
+    <string name="posting">Posting</string>
+    <string name="profile">Profile</string>
+    <string name="james_wills">james_wills</string>
+    <string name="james_williams_l">James Williams L</string>
+    <string name="home">Home</string>
+</resources>

@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/post"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="37.5dp"
+                android:layout_gravity="center_vertical">
+
+                <ImageView
+                    android:id="@+id/IV_Profile"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/baseline_account_circle_24"/>
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/TV_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    tools:text="username" />
+
+                <TextView
+                    android:id="@+id/TV_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:layout_below="@+id/TV_username"
+                    android:textColor="@color/white"
+                    tools:text="Nama Lengkap" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/IV_Delete"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:src="@drawable/baseline_delete_24"
+                android:layout_gravity="center_vertical"
+                android:layout_toEndOf="@+id/TV_username"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="45dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/TV_Desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            tools:text="vdevdhf dbejdjedje djendejd ejdbjebdjed jwndw ebuher4 4rbj4br4 sb bjwbsb d e"/>
+
+        <ImageView
+            android:id="@+id/IV_Postingan"
+            android:layout_width="370dp"
+            android:layout_height="270dp"
+            android:src="@drawable/ic_launcher_background"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>
